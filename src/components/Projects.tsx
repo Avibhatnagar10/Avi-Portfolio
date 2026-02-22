@@ -19,6 +19,13 @@ interface Props {}
 const Projects: NextPage<Props> = ({}) => {
   const projects: Project[] = [
     {
+      title: "Context Engine - Intelligence built on your data.",
+      description: "ContextEngine is a semantic retrieval backend designed to provide AI applications with persistent memory and intelligent context.",
+      image: "/context.png",
+      link: "https://context-engine-ui.vercel.app",
+      tags: ["Next.js", "RAG", "Python", "LLMs","ChromaDB","Fastapi"],
+    },
+    {
       title: "NexStream - A Live Streaming Platform ",
       description: "AI-powered live streaming platform designed for seamless collaboration, real-time engagement, and smart content moderation.",
       image: "/nexstream.png",
